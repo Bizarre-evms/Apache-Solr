@@ -1,0 +1,292 @@
+<add>
+
+<doc>
+  <field name="id">1</field>
+  <field name="name">Hotel Delhi 37</field>
+  <field name="cat">Budget</field>
+  <field name="img">images/1.jpg</field>
+  <field name="star">3</field>
+  <field name="rating">3.5</field>
+  <field name="price">1575</field>
+  <field name="lat">28.544371</field>
+  <field name="lng">77.124454</field>
+  <field name="address"> A-147, Nh-8, Mahipalpur New Delhi Delhi N.C.R 110037 India</field>
+  <field name="city">Delhi</field>
+  <field name="country">India</field>
+  <field name="desc">This hotel is located in New Delhi (Mahipalpur), near the airport, AMBI Mall, Fortis Hospital, and DLF Emporio Vasant Kunj. Local attractions also include DLF Promenade Vasant Kunj and Jawaharlal Nehru University.</field>
+</doc>
+
+
+<doc>
+  <field name="id">2</field>
+  <field name="name">Leela Palace</field>
+  <field name="cat">Business</field>
+  <field name="img">images/2.jpg</field>
+  <field name="star">5</field>
+  <field name="rating">3.5</field>
+  <field name="price">4543</field>
+  <field name="lat">12.961089</field>
+  <field name="lng">77.646316</field>
+  <field name="address"> 23, Old Airport Road, Kodihalli, 3rd Cross Rd, HAL 3rd Stage, Kodihalli, Bengaluru, Karnataka 560008</field>
+  <field name="city">Bangalore</field>
+  <field name="country">India</field>
+  <field name="desc">The Leela Palace Bangalore is one of the leading 5 star hotels in Bangalore set over nine acres of garden for the ultimate palace experience word class dining</field>
+</doc>
+
+<doc>
+  <field name="id">3</field>
+  <field name="name">Hilton Bangalore Embassy GolfLinks</field>
+  <field name="cat">Luxury</field>
+  <field name="img">images/3.jpg</field>
+  <field name="star">5</field>
+  <field name="rating">4.5</field>
+  <field name="price">5206</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Bangalore</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">4</field>
+  <field name="name">Marriot Mumbai</field>
+  <field name="cat">Luxury</field>
+  <field name="img">images/4.jpg</field>
+  <field name="star">5</field>
+  <field name="rating">4.5</field>
+  <field name="price">1235</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Mumbai</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">5</field>
+  <field name="name">Hilton Delhi</field>
+  <field name="cat">Business</field>
+  <field name="img">images/5.jpg</field>
+  <field name="star">4</field>
+  <field name="rating">4</field>
+  <field name="price">2345</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Delhi</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">6</field>
+  <field name="name">Seven Hills</field>
+  <field name="cat">Luxury</field>
+  <field name="img">images/6.jpg</field>
+  <field name="star">5</field>
+  <field name="rating">3.5</field>
+  <field name="price">4567</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Delhi</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">7</field>
+  <field name="name">Highway Dhaba</field>
+  <field name="cat">Budget</field>
+  <field name="img">images/7.jpg</field>
+  <field name="star">3</field>
+  <field name="rating">2.5</field>
+  <field name="price">888</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Hyderabad</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">8</field>
+  <field name="name">Space Station</field>
+  <field name="cat">Luxury</field>
+  <field name="img">images/8.jpg</field>
+  <field name="star">5</field>
+  <field name="rating">4.5</field>
+  <field name="price">4444</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Delhi</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">9</field>
+  <field name="name">Submarine Hotel</field>
+  <field name="cat">Business</field>
+  <field name="img">images/9.jpg</field>
+  <field name="star">4</field>
+  <field name="rating">5</field>
+  <field name="price">3333</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Mumbai</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">10</field>
+  <field name="name">Lake Palace</field>
+  <field name="cat">Luxury</field>
+  <field name="img">images/10.jpg</field>
+  <field name="star">5</field>
+  <field name="rating">4.5</field>
+  <field name="price">2222</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Hyderabad Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Hyderabad</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">11</field>
+  <field name="name">Mountain View</field>
+  <field name="cat">Luxury</field>
+  <field name="img">images/11.jpg</field>
+  <field name="star">5</field>
+  <field name="rating">2.5</field>
+  <field name="price">4566</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Bangalore</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">12</field>
+  <field name="name">RoofTop Luxury</field>
+  <field name="cat">Business</field>
+  <field name="img">images/12.jpg</field>
+  <field name="star">4</field>
+  <field name="rating">1.5</field>
+  <field name="price">2299</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Delhi</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">13</field>
+  <field name="name">Grassland Plateau</field>
+  <field name="cat">Business</field>
+  <field name="img">images/13.jpg</field>
+  <field name="star">3</field>
+  <field name="rating">3.5</field>
+  <field name="price">1122</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Delhi</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">14</field>
+  <field name="name">Mumbai Madness</field>
+  <field name="cat">Budget</field>
+  <field name="img">images/14.jpg</field>
+  <field name="star">2</field>
+  <field name="rating">4.5</field>
+  <field name="price">1212</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Mumbai</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">15</field>
+  <field name="name">Indian Cuisine</field>
+  <field name="cat">Budget</field>
+  <field name="img">images/15.jpg</field>
+  <field name="star">1</field>
+  <field name="rating">5</field>
+  <field name="price">3434</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Bangalore</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">16</field>
+  <field name="name">Konkan Residency</field>
+  <field name="cat">Budget</field>
+  <field name="img">images/16.jpg</field>
+  <field name="star">2</field>
+  <field name="rating">4.5</field>
+  <field name="price">4554</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Mumbai</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">17</field>
+  <field name="name">Hyderabad House</field>
+  <field name="cat">Budget</field>
+  <field name="img">images/17.jpg</field>
+  <field name="star">3</field>
+  <field name="rating">4</field>
+  <field name="price">2343</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Hyderabad</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+<doc>
+  <field name="id">18</field>
+  <field name="name">Hilton Mumbai Embassy</field>
+  <field name="cat">Business</field>
+  <field name="img">images/18.jpg</field>
+  <field name="star">5</field>
+  <field name="rating">5</field>
+  <field name="price">5544</field>
+  <field name="lat">12.951315</field>
+  <field name="lng">77.646453</field>
+  <field name="address">Embassy Golf Links Business Park Bengaluru Karnataka 560071 India </field>
+  <field name="city">Mumbai</field>
+  <field name="country">India</field>
+  <field name="desc">This luxury hotel is located in the heart of Bengaluru, walking distance from Dell Offices, Fidelity Business Services, and Embassy Golf Link Business Park. Also nearby are Goldman Sachs Offices and Karnataka Golf Course.</field>
+</doc>
+
+</add>

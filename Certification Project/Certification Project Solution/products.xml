@@ -1,0 +1,243 @@
+<add>
+
+<doc>
+  <field name="id">1</field>
+  <field name="name">Vivo V9</field>
+  <field name="desc">89 Value For Money - 6.3 inch Screen - 16MP Camera - 4GB RAM - 3260mAh</field>
+  <field name="category">Mobile-Phone</field>
+  <field name="brandname">Vivo</field>
+  <field name="url">https://www.google.com/search?q=vivo+v9</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/mobile/47482/vivo-v9-l-113887.jpg?tr=h-120</field>
+  <field name="price">14000</field>
+  <field name="rating">4</field>
+</doc>
+
+<doc>
+  <field name="id">2</field>
+  <field name="name">Xiaomi Redmi Note 5 Pro (6GB/64GB)</field>
+  <field name="desc">95 Value For Money - 5.99 inch Screen - 12MP Camera - 6GB RAM - 4000mAh</field>
+  <field name="category">Mobile-Phone</field>
+  <field name="brandname">Xiaomi</field>
+  <field name="url">https://www.google.com/search?q=Xiaomi+Redmi+Note+5+Pro</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/mobile/47096/xiaomi-redmi-note-5-pro-6gb-64gb-l-105530.jpg?tr=h-120</field>
+  <field name="price">15000</field>
+  <field name="rating">3</field>
+</doc>
+
+<doc>
+  <field name="id">3</field>
+  <field name="name">Honor 8X</field>
+  <field name="desc">82 Value For Money - 6.5 inch Screen - 20MP Camera - 4GB RAM - 3750mAh</field>
+  <field name="category">Mobile-Phone</field>
+  <field name="brandname">Honor</field>
+  <field name="url">https://www.google.com/search?q=Honor+8X</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/mobile/49988/honor-8x-l-172616.jpg?tr=h-120</field>
+  <field name="price">15000</field>
+  <field name="rating">4.5</field>
+</doc>
+
+<doc>
+  <field name="id">4</field>
+  <field name="name">Motorola One Power</field>
+  <field name="desc">84 Value For Money - 6.2 inch Screen - 16MP Camera - 4GB RAM - 5000mAh</field>
+  <field name="category">Mobile-Phone</field>
+  <field name="brandname">Motorola</field>
+  <field name="url">https://www.google.com/search?q=Motorola+One+Power</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/mobile/49536/motorola-one-power-l-169948.jpg?tr=h-120</field>
+  <field name="price">15000</field>
+  <field name="rating">3</field>
+</doc>
+
+<doc>
+  <field name="id">5</field>
+  <field name="name">Xiaomi Mi TV 4A 32 Inch HD Ready LED</field>
+  <field name="desc">72 Value For Money - 32 inch  - 1366 x 768 pixels  - LED TV - 3 HDMI Port(s)</field>
+  <field name="category">Television</field>
+  <field name="brandname">Xiaomi</field>
+  <field name="url">https://www.google.com/search?q=Xiaomi+Mi+TV+4A</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/television/47456/xiaomi-mi-tv-4a-32-inch-hd-led-tv-price-india-l-112753.jpg?tr=h-120</field>
+  <field name="price">16000</field>
+  <field name="rating">5</field>
+</doc>
+
+<doc>
+  <field name="id">6</field>
+  <field name="name">Thomson 40M4099 40 inch Full HD Smart LED</field>
+  <field name="desc">81 Value For Money - 40 inch  - 1920 x 1080 pixels  - LED TV - 3 HDMI Port(s)</field>
+  <field name="category">Television</field>
+  <field name="brandname">Thomson</field>
+  <field name="url">https://www.google.com/search?q=Thomson+40M4099+40+inch</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/television/48405/thomson-40m4099-40-inch-full-hd-led-tv-price-india-l-116286.jpg?tr=h-120</field>
+  <field name="price">20000</field>
+  <field name="rating">4</field>
+</doc>
+
+<doc>
+  <field name="id">7</field>
+  <field name="name">Samsung 20H4003 20 inch HD Ready LED</field>
+  <field name="desc">62 Value For Money - 20 inch  - 1366 x 768 pixels  - LED TV - 1 HDMI Port(s)</field>
+  <field name="category">Television</field>
+  <field name="brandname">Samsung</field>
+  <field name="url">https://www.google.com/search?q=Samsung+20H4003+20+inch</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/television/5715/samsung-20h4003-20-inch-hd-ready-led-tv-price-india-l-22915.jpg?tr=h-120</field>
+  <field name="price">9000</field>
+  <field name="rating">3.5</field>
+</doc>
+
+<doc>
+  <field name="id">8</field>
+  <field name="name">LG 284 Litre Double Door Refrigerator (GL-C302RPZU)</field>
+  <field name="desc">87 Value For Money - 284 Litre  - 2 Door(s)  - Frost Free  - 3 Star Rating</field>
+  <field name="category">Refrigerator</field>
+  <field name="brandname">LG</field>
+  <field name="url">https://www.google.com/search?q=LG+284+Litre+Double+Door+Refrigerator</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/refrigerators/47636/lg-284-litre-double-door-refrigerator-gl-c-302rpzu-l-112018.jpg?tr=h-120</field>
+  <field name="price">26000</field>
+  <field name="rating">5</field>
+</doc>
+
+<doc>
+  <field name="id">9</field>
+  <field name="name">Godrej 190 Litre Single Door Refrigerator (RD EdgePro 190 PDS 5.2)</field>
+  <field name="desc">78 Value For Money - 190 Litre  - 1 Door(s)  - Direct Cool  - 5 Star Rating</field>
+  <field name="category">Refrigerator</field>
+  <field name="brandname">Godrej</field>
+  <field name="url">https://www.google.com/search?q=Godrej+190+Litre+Single+Door+Refrigerator</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/refrigerators/9307/godrej-190-litre-single-door-refrigerator-rd-edgepro-190-pds-5-2-price-india-l-58290.jpg?tr=h-120</field>
+  <field name="price">19000</field>
+  <field name="rating">4</field>
+</doc>
+
+<doc>
+  <field name="id">10</field>
+  <field name="name">Whirlpool 240 Litre Triple Door Refrigerator (FP 263D PROTTON ROY)</field>
+  <field name="desc">78 Value For Money - 240 Litre  - 3 Door(s)  - Frost Free</field>
+  <field name="category">Refrigerator</field>
+  <field name="brandname">Whirlpool</field>
+  <field name="url">https://www.google.com/search?q=Whirlpool+240+Litre+Triple+Door+Refrigerator</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/refrigerators/6096/whirlpool-240-litre-triple-door-refrigerator-fp-263d-protton-roy-price-india-l-24745.jpg?tr=h-120</field>
+  <field name="price">19000</field>
+  <field name="rating">3</field>
+</doc>
+
+<doc>
+  <field name="id">11</field>
+  <field name="name">Realme 2 Pro 6GB RAM</field>
+  <field name="desc">Dual Sim, 3G, 4G, VoLTE, Wi-Fi, Octa Core, 2.2 GHz Processor, 6 GB RAM, 64 GB inbuilt, 3500 mAh Battery, 6.3 inches, 1080 x 2340 px Display, 16 MP + 2 MP Dual Rear + 16 MP Front Camera, Memory Card Supported, upto 256 GB, Android, v8.1</field>
+  <field name="category">Mobile-Phone</field>
+  <field name="brandname">Realme</field>
+  <field name="url">https://www.google.com/search?q=Realme+2+Pro+6GB+RAM</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/mobile/57226/realme-2-pro-128gb-l-171211.jpg?tr=h-120</field>
+  <field name="price">16000</field>
+  <field name="rating">5</field>
+</doc>
+
+<doc>
+  <field name="id">12</field>
+  <field name="name">Oppo F9</field>
+  <field name="desc">84 Value For Money - 6.3 inch Screen - 16MP Camera - 4GB RAM - 3500mAh</field>
+  <field name="category">Mobile-Phone</field>
+  <field name="brandname">Oppo</field>
+  <field name="url">https://www.google.com/search?q=Oppo+F9</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/mobile/49463/oppo-f9-l-171307.jpg?tr=h-120</field>
+  <field name="price">16000</field>
+  <field name="rating">5</field>
+</doc>
+
+<doc>
+  <field name="id">13</field>
+  <field name="name">Nokia 6.1 Plus</field>
+  <field name="desc">83 Value For Money - 5.8 inch Screen - 16MP Camera - 4GB RAM - 3060mAh</field>
+  <field name="category">Mobile-Phone</field>
+  <field name="brandname">Nokia</field>
+  <field name="url">https://www.google.com/search?q=Nokia+6.1+Plus</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/mobile/51220/nokia-6-1-plus-l-160253.jpg?tr=h-120</field>
+  <field name="price">15000</field>
+  <field name="rating">5</field>
+</doc>
+
+<doc>
+  <field name="id">14</field>
+  <field name="name">LG 24LJ470A 24 inch HD Ready Smart LED</field>
+  <field name="desc">Resolution: HD Ready (1366 x 768p) | Refresh rate : 50 hertz; Display: Cricket Mode; Connectivity: 1 HDMI port to connect set top box, Blu Ray players, gaming console | 1 USB port to connect hard drives and other USB devices</field>
+  <field name="category">Television</field>
+  <field name="brandname">LG</field>
+  <field name="url">https://www.google.com/search?q=LG+24LJ470A+24+inch</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/television/35668/lg-24lj470a-24-inch-hd-ready-smart-led-tv-price-india-l-103920.jpg?tr=h-120</field>
+  <field name="price">11000</field>
+  <field name="rating">4</field>
+</doc>
+
+<doc>
+  <field name="id">15</field>
+  <field name="name">Voltas 1.5 Ton 5 Star Split (185JY)</field>
+  <field name="desc">If you are looking for an Air Conditioner that is high on efficiency but low on Energy consumption then buy Voltas 185JY /183 JZJ1 Split AC from Amazon India The elegantly designed split AC model comes with latest features. This AC has an energy efficiency certification of 3 Star rating (2018). It has a capacity of 1.5 Ton and also comes with one-year warranty on the product and five-year on the compressor.</field>
+  <field name="category">Air-Conditioner</field>
+  <field name="brandname">Voltas</field>
+  <field name="url">https://www.google.com/search?q=Voltas+1.5+Ton+5+Star+Split</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/air-conditioners/29656/voltas-1-5-ton-5-star-split-185jy-ac-l-74137.jpg?tr=h-120</field>
+  <field name="price">39000</field>
+  <field name="rating">3</field>
+</doc>
+
+<doc>
+  <field name="id">16</field>
+  <field name="name">Hitachi 1.2 Ton 5 Star Split (RAU514AWD)</field>
+  <field name="desc">88 Value For Money - Split AC - 1.2 Ton  - 5 Star  - White</field>
+  <field name="category">Air-Conditioner</field>
+  <field name="brandname">Hitachi</field>
+  <field name="url">https://www.google.com/search?q=Hitachi+1.5+Ton+5+Star+Split</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/air-conditioners/29763/hitachi-1-2-ton-5-star-split-rau514awd-ac-l-73774.jpg?tr=h-120</field>
+  <field name="price">33000</field>
+  <field name="rating">2</field>
+</doc>
+
+<doc>
+  <field name="id">17</field>
+  <field name="name">Blue Star 1.5 Ton 5 Star Split (BI-5CNHW18PAFU)</field>
+  <field name="desc">80 Value For Money - Split AC - 1.5 Ton  - 5 Star  - White</field>
+  <field name="category">Air-Conditioner</field>
+  <field name="brandname">Blue Star</field>
+  <field name="url">https://www.google.com/search?q=Blue+Star+1.5+Ton+5+Star+Split</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/air-conditioners/48883/blue-star-1-5-ton-5-star-split-2018-5cnhw18qatx-ac-l-120378.jpg?tr=h-120</field>
+  <field name="price">38000</field>
+  <field name="rating">5</field>
+</doc>
+
+<doc>
+  <field name="id">18</field>
+  <field name="name">Apple Watch Series 3 GPS 38mm</field>
+  <field name="desc">92 Value For Money - 1.5 inch Display - Apple WatchOS  - Rubber, Nylon, Silicon... - 18 hours Battery Life</field>
+  <field name="category">SmartWatch</field>
+  <field name="brandname">Apple</field>
+  <field name="url">https://www.google.com/search?q=Apple+Watch+Series+3</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/smartwatch/45660/apple-watch-series-3-38mm-l-85648.jpg?tr=h-120</field>
+  <field name="price">32000</field>
+  <field name="rating">5</field>
+</doc>
+
+<doc>
+  <field name="id">19</field>
+  <field name="name">Apple Watch Series 2 38mm</field>
+  <field name="desc">90 Value For Money - 1.5 inch Display - Apple WatchOS  - Rubber, Nylon, Leather... - 18 hours Battery Life</field>
+  <field name="category">SmartWatch</field>
+  <field name="brandname">Apple</field>
+  <field name="url">https://www.google.com/search?q=Apple+Watch+Series+2</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/smartwatch/24614/apple-watch-series-2-38mm-l-56363.jpg?tr=h-120</field>
+  <field name="price">33000</field>
+  <field name="rating">4</field>
+</doc>
+
+<doc>
+  <field name="id">20</field>
+  <field name="name">Apple Watch 38mm</field>
+  <field name="desc">94 Value For Money - 1.5 inch Display - Apple WatchOS  - Leather, Stainless Steel - 18 hours Battery Life</field>
+  <field name="category">SmartWatch</field>
+  <field name="brandname">Apple</field>
+  <field name="url">https://www.google.com/search?q=Apple+Watch+38mm</field>
+  <field name="img">https://www.91-cdn.com/pricebaba-images/images/product/smartwatch/4986/apple-watch-38mm-stainless-steel-l-17693.jpg?tr=h-120</field>
+  <field name="price">64000</field>
+  <field name="rating">3</field>
+</doc>
+
+</add>

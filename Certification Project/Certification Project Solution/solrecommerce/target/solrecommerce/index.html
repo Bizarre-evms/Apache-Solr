@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Edureka Solr Ceritificatin Project</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="jquery-1.11.1.min.js"></script>
+<link rel="stylesheet"
+	href="./jquery-ui/themes/smoothness/jquery-ui.css">
+<script src="./jquery-ui/jquery-ui.js"></script>
+
+<style>
+</style>
+<script>
+    $(function() {
+        $("#query").autocomplete({
+            source : function(request, resolve) {
+                var term = request.term;
+                if (term.length < 3) {
+                    return false;
+                }
+                var sUrl = '/suggestions?term=' + term;
+                var response = [];
+                $.ajax({
+                    type : "GET",
+                    url : sUrl,
+                    dataType : 'json',
+                    success : function(resp) {
+                        var suggestions = resp.suggestionList;
+                        resolve(suggestions);
+                    },
+                    error : function(err) {
+                        console.log(err);
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+</head>
+<body style="margin: 0px; width: 100%; height: 100%;">
+	<table width="100%" border="0" style="border: solid 1px #242424;">
+		<tr>
+			<td colspan="2"><br /></td>
+		</tr>
+		<tr>
+			<td width="15%"><span style="margin-left: 20px;"><img
+					width="50%" src="./images/logo.png"></span></td>
+			<td width="85%"><b>Search</b> <input
+				style="line-height: 25px; width: 60%;" type="text" name="query"
+				id="query" value="" /> <input
+				style="line-height: 25px; font-size: 14px;" type="button"
+				value="Search" onclick="javascript:searchSolr();" /></td>
+		</tr>
+
+		<tr>
+			<td colspan="2"><br /></td>
+		</tr>
+
+
+		<tr id="idRow">
+			<td valign="top" style="border: solid 1px #ccc;">
+				<div id="priceRangeFilterTitle"
+					style="margin-top: 20px; margin-bottom: 10px; color: #fff9e5; background: #F04167; font-size: 16px; font-weight: bold;">Price
+					Filter</div>
+				<div id="priceRangeFilter"></div>
+				<div id="categoryFilterTitle"
+					style="margin-top: 20px; margin-bottom: 10px; color: #fff9e5; background: #F04167; font-size: 16px; font-weight: bold;">Category
+					Filter</div>
+				<div id="categoryFilter"></div>
+			</td>
+			<td valign="top" id="resultsTD" style="border: solid 1px #ccc;">
+			</td>
+		</tr>
+
+	</table>
+</body>
+<script>
+    function searchSolr() {
+        var queryStr = $('#query').val();
+        var products = queryProducts(queryStr);
+    }
+
+    function filterResults() {
+
+    }
+
+    var queryProducts = function(q, category, minPrice, maxPrice) {
+        var sUrl = '/products?query=' + q + '*';
+        if (category && category.length > 0) {
+            sUrl += "&category=" + category;
+        }
+        if (maxPrice && maxPrice > 0) {
+            sUrl += "&minPrice=" + minPrice + "&maxPrice=" + maxPrice;
+        }
+
+        $.ajax({
+            type : "GET",
+            url : sUrl,
+            dataType : 'json',
+            success : function(response) {
+                renderProducts(response);
+            },
+            error : function(err) {
+                console.log(err);
+            }
+        });
+    }
+
+    function renderProducts(responseData) {
+        var recordsFound = responseData.productTotal;
+
+        var facets = '';
+        $('#categoryFilter').empty();
+        var categoryFacetData = responseData.facetList;
+        for (facet in categoryFacetData) {
+            var facetCounts = categoryFacetData[facet].category;
+            for (key in facetCounts) {
+                if (facetCounts[key] === "0") {
+                    continue;
+                }
+                $('#categoryFilter').append('<span style="display:block;">' + key + ' (' + facetCounts[key] + ')</span>');
+            }
+        }
+
+        var res = '';
+        for (var i = 0; i < recordsFound; i++) {
+            res = res.concat("<table><tr valign='top'>");
+            res = res.concat("<td valign='top' style='width:175px;'>");
+            res = res.concat("<img width='175' src='"+responseData.products[i].img+"'/>");
+            res = res.concat("</td>");
+            res = res.concat("<td valign='top'>");
+            res = res.concat("<p style='color: #949595; margin:0px; font-weight:bold; font-size: 24px;'>" + responseData.products[i].name + "</p>");
+            res = res.concat("<br/>");
+            res = res.concat("<p style='color: #1e1e1e; margin:0px; font-weight:bold; font-size: 24px;'>Brand: " + responseData.products[i].brandname + "</p>");
+            res = res.concat("<br/>");
+            res = res.concat(responseData.products[i].desc);
+            res = res.concat("</td>");
+            res = res.concat("<td style='width: 120px; color:red; font-size:24px; font-weight: bold;'>");
+            res = res.concat("$ " + responseData.products[i].price + "");
+            res = res.concat("</td>");
+            res = res.concat("</tr></table>");
+        }
+        $("#idRow").css("display: block;");
+        $("#resultsTD").html(res);
+
+        $('#priceRangeFilter').empty();
+        var priceFilterData = responseData.priceRangeFacet;
+        for (key in priceFilterData) {
+            if (priceFilterData[key] === "0") {
+                continue;
+            }
+            var upperBound = parseFloat(key) + 10000;
+            $('#priceRangeFilter').append('<span style="display:block;">' + key + ' - ' + upperBound + ' (' + priceFilterData[key] + ')</span>');
+        }
+    }
+
+    function init() {
+        $('#query').keyup(function(event) {
+            if (event.keyCode == 13) {
+                searchSolr();
+            }
+        });
+
+        var products = queryProducts("");
+    }
+
+    $(function() {
+        init();
+    });
+</script>
+</html>

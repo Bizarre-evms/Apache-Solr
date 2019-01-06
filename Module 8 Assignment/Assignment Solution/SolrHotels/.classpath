@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="var" path="M2_REPO/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar" sourcepath="M2_REPO/javax/javaee-web-api/7.0/javaee-web-api-7.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/solr/solr-solrj/4.10.2/solr-solrj-4.10.2.jar" sourcepath="M2_REPO/org/apache/solr/solr-solrj/4.10.2/solr-solrj-4.10.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.3/commons-io-2.3.jar" sourcepath="M2_REPO/commons-io/commons-io/2.3/commons-io-2.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpmime/4.3.1/httpmime-4.3.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar" sourcepath="M2_REPO/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/woodstox/wstx-asl/3.2.7/wstx-asl-3.2.7.jar" sourcepath="M2_REPO/org/codehaus/woodstox/wstx-asl/3.2.7/wstx-asl-3.2.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/noggit/noggit/0.5/noggit-0.5.jar" sourcepath="M2_REPO/org/noggit/noggit/0.5/noggit-0.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar" sourcepath="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.2/commons-codec-1.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
